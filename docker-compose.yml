@@ -13,7 +13,7 @@ services:
     environment:
       - PORT=3000
       - NODE_ENV=development
-      - MONGO_DB_CONNECTION_STRING='mongodb+srv://theislanglands:<folk4ever>@cluster0.uw2pv.mongodb.net/?retryWrites=true&w=majority'
+      - MONGO_DB_CONNECTION_STRING=mongodb+srv://theislanglands:<folk4ever>@cluster0.uw2pv.mongodb.net/?retryWrites=true&w=majority
       - MONGO_DB_NAME=cloud
       - REDIS_URI=rediss://default:AVNS_QHL8cA1n6eOSYmBRzEM@redis-cloud-student-9112.aivencloud.com:24807
       #- REDIS_URI=127.0.0.1:6379 (localhost)
